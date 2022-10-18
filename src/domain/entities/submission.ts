@@ -1,9 +1,9 @@
 import { Entity } from "core/domain/Entity";
 
 type SubmissionProps = {
-    grade: number;
-
-    submissionId: string;
+    studentId: string;
+    challengeId: string;
+    createdAt?: Date;
 };
 
 export class Submission extends Entity<SubmissionProps> {
@@ -12,6 +12,6 @@ export class Submission extends Entity<SubmissionProps> {
     }
 
     public static create(props: SubmissionProps, id?:string): Submission {
-        return new Submission(props);
+        return new Submission({...props, createdAt: props.createdAt ?? new Date()}, id);
     }
 }
