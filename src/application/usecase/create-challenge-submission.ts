@@ -13,15 +13,19 @@ export class CreateChallengeSubmission {
     private challengeRepository: ChallengeRepository
   ) {}
 
-  execute({ studentId, challengeId }: CreateChallengeSubmissionRequest) {
-    const student = this.studentRepository.findById(studentId);
-    const challenge = this.challengeRepository.findById(challengeId);
+  async execute({ studentId, challengeId }: CreateChallengeSubmissionRequest) {
+    const student = await this.studentRepository.findById(studentId);
+    
+
     if (!student) {
       throw new Error("Student not found");
     }
+    const challenge = await this.challengeRepository.findById(challengeId);
+
     if (!challenge) {
         throw new Error("Challenge not found");
     }
+
 
     const submission = Submission.create({ studentId, challengeId });
 
