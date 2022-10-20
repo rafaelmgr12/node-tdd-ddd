@@ -1,16 +1,18 @@
 import { Entity } from "../../core/domain/Entity";
 
 type StudentProps = {
-    url: string;
-    intructions: string;
+  name: string;
+  email: string;
 };
 
 export class Student extends Entity<StudentProps> {
-    constructor(props: StudentProps, id?: string) {
-        super(props, id);
-    }
+  private constructor(props: StudentProps, id?: string) {
+    super(props, id);
+  }
 
-    public static create(props: StudentProps, id?:string): Student {
-        return new Student(props);
-    }
+  static create(props: StudentProps, id?: string) {
+    const correction = new Student(props, id);
+
+    return correction;
+  }
 }
