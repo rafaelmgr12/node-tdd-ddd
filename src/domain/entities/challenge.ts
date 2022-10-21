@@ -1,8 +1,8 @@
 import { Entity } from "../../core/domain/Entity";
 
 type ChallengeProps = {
-    url: string;
-    intructions: string;
+    title: string;
+    instructionsUrl: string;
 };
 
 export class Challenge extends Entity<ChallengeProps> {
