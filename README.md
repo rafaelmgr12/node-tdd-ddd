@@ -95,3 +95,14 @@ Made with ♥ by Rafael 👋🏻
 [![Linkedin Badge](https://img.shields.io/badge/-Rafael-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/rafael-mgr/)
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat-square&link=mailto:nelsonsantosaraujo@hotmail.com)](mailto:ribeirorafaelmatehus@gmail.com)
 
+## Referências
+
+* [Tutorial](https://www.youtube.com/watch?v=mjBsii0eiuI)
+* [SOLID](https://pt.wikipedia.org/wiki/SOLID)
+* [TDD](https://pt.wikipedia.org/wiki/Test-driven_development)
+* Blogs:
+  * [Treina web](https://www.treinaweb.com.br/blog/afinal-o-que-e-tdd)
+  * [Caelum](https://tdd.caelum.com.br/)
+  * [Digite](https://www.digite.com/pt-br/agile/desenvolvimento-orientado-a-testes-tdd/)
+  * [Medium](https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530)
+  * [Free Code Camp](https://www.freecodecamp.org/portuguese/news/os-principios-solid-da-programacao-orientada-a-objetos-explicados-em-bom-portugues/)
